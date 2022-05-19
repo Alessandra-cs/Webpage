@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Projeto Web</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--Footer-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--Fim do Footer-->
+
+
+  <style>
+  /* Ajustes do slider */
+    .carousel-inner img {
+      width: 90%;
+      margin: auto;
+      display: block;
+      max-height:300px;
+  }
+    </style>
+  
+</head>
+
+
+<body>
+
+<!--Início do Menu Principal-->
+<nav class="navbar navbar-expand-sm bg-transparent navbar-light">
+  <!--Logo-->
+  <a class="navbar-brand" href="#">
+    <img src="https://uploaddeimagens.com.br/images/003/744/528/original/Captura_de_tela_2022-02-24_100159.png" alt="Logo" style="width:300px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="home.html">INÍCIO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="sobre.html">SOBRE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="projetos.html">PROJETOS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contato.html">CONTATO</a>
+    </li>
+  </ul>
+</nav>
+<!--Fim do Menu Principal-->
+
+<!--Início do Slider-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.mediapost.com.br/assets/uploads/2011/11/o-que-e-html.jpg" alt="HTML" width="900" height="500">
+      <div class="carousel-caption">
+        <p>HTML: do básico ao avançado!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://miro.medium.com/max/800/1*MVaraOOVG-gVUkirc9g2tA.png" alt="CSS" width="900" height="500">
+      <div class="carousel-caption">
+        <p>O que é CSS?</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://blog.locaweb.com.br/wp-content/uploads/2017/09/Ate-onde-vai-o-poder-do-JavaScript.png" alt="Javascript" width="900" height="500">
+      <div class="carousel-caption">
+        <p>O que o Javascript é capaz de fazer?</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!--Fim do Slider-->
+
+
+
+<!--Início das Colunas-->
+<div class="container text-center">    
+  <h1> </h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+    <img src="https://observatorio3setor.org.br/wp-content/uploads/2019/09/foto-cassiana-martins.jpg" class="img-responsive" style="width:100%" alt="Mulheres na programação">
+      <h5>Iniciativas ajudam mulheres a ingressarem no mundo da programação</h5>
+      <p align="justify">Dados da ONU apontam que as mulheres representam apenas 17% dos programadores brasileiros, apesar de esta profissão ser uma das mais promissoras e com melhor remuneração e chances de crescimento. Diante deste cenário, surgem projetos e negócios sociais que visam reduzir as barreiras entre as mulheres e o mundo da ciência e da tecnologia...</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://rockcontent.com/br/wp-content/uploads/sites/2/2020/07/user-experience-1024x538.png.webp" class="img-responsive" style="width:100%" alt="UX">
+      <h5>A importância da Experiência do Usuário (UX)</h5>
+      <p align="justify">User Experience (Experiência do Usuário) é a disciplina responsável por projetar experiências de uso encantadoras para fidelizar e conquistar clientes. Com esse objetivo, os designers de UX estudam o comportamento humano e o serviço oferecido para encontrar meios de melhorar a satisfação e a lealdade dos clientes.</p>
+    </div>
+    
+    <div class="col-sm-4"> 
+      <img src="https://rockcontent.com/br/wp-content/uploads/sites/2/2020/02/metodologia-%C3%A1gil-1024x682.png" class="img-responsive" style="width:100%" alt="UX">
+        <h5>Metodologias Ágeis</h5>
+      <p align="justify">Geralmente, os ambientes ágeis de desenvolvimento são compostos por equipe que têm autonomia e conseguem se auto-organizar para atingir os seus objetivos e metas.
+Na atualidade, essa ferramenta é global, ganhando destaque por ser mais produtiva e eficaz do que os métodos tradicionais.</p>    
+    </div>
+<!--Fim das Colunas-->
+
+<!--Footer-->
+<style>
+  .footer-basic {
+  font-size:50px;
+  margin: auto;
+  display: block;
+  }
+
+  .redes {
+  font-size:15px;
+  margin: auto;
+  display: block;
+  }
+
+  .copyright {
+  font-size:15px;
+  margin: auto;
+  display: block;
+  }
+    </style>
+
+<body>
+  <div class="footer-basic">
+      <footer>
+        <p class="redes">Nos siga nas Redes Sociais:</p>
+        <div class="social">
+        <a href="https://www.linkedin.com/in/alessandra-cristina-dos-santos-b185a51ba/"><i class="icon ion-social-linkedin"></i></a>
+        <a href="https://www.facebook.com/alessa.cs"><i class="icon ion-social-facebook"></i></a>
+      </div>
+          <p class="copyright">© 2022</p>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+<!--Fim do Footer-->
+
+</body>
+</html>
